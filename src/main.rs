@@ -35,7 +35,7 @@ fn main() {
         describe 
         gen lscore = log(score)
         gen expcore = exp(score)
-        gen sqtcore = sqrt(score)
+        gen sqscore = sqrt(score)
         describe
         reg lscore age work study,robust
         
